@@ -61,6 +61,9 @@ header p{
 }
 
 /* MOBILE SECTION  */
+section{
+    margin-bottom: 78px;
+}
 
 
 
@@ -101,5 +104,21 @@ header p{
     height: 57px;
     margin-top: 33px;
     margin-left: 70%;
+}
+
+.item-1{
+    border-top: solid 3.55px var(--cyan);
+}
+
+.item-2{
+    border-top: solid 3.55px var(--red);
+}
+
+.item-3{
+    border-top: solid 3.55px var(--orange);
+}
+
+.item-4{
+    border-top: solid 3.55px var(--blue);
 }
 
