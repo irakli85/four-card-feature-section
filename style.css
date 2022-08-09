@@ -29,7 +29,7 @@ body{
 
 header{
     margin-left: 10.66%;
-    margin-right: 10%;
+    margin-right: 10%;    
 }
 
 header h1{
@@ -120,5 +120,48 @@ section{
 
 .item-4{
     border-top: solid 3.55px var(--blue);
+}
+
+/* DESKTOP VERSION */
+
+@media screen and (min-width: 1440px) {
+
+    /* HEADER DESKTOP */
+
+    header h1{
+        font-size: 36px;
+        letter-spacing: 0.25px;
+        margin-top: 80px;
+    }
+
+    header h2{
+        font-size: 36px;
+        letter-spacing: 0.25px;
+    }
+
+    header p{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    /* CARD SECTION DESKTOP*/
+
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 64px;
+    }
+
+    .card-items{
+        width: 350px;
+        height: 250px;
+        margin-right: 0;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
 }
 
