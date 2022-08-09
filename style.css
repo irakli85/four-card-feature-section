@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+:root{
+    --red: #EA5454;
+    --cyan: #44D3D2;
+    --orange:#FCAE4A;
+    --blue: #549EF2;
+    --black: #4D4F62;
+    --bg: #F2F2F2;
+    --white: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    max-width: 100vw;
+    height: auto;
+    background: var(--bg);
+}
+
+/* MOBILE HEADER */
+
+header{
+    margin-left: 10.66%;
+    margin-right: 10%;
+}
+
+header h1{
+    font-weight: 275;
+    font-size: 24px;
+    letter-spacing: 0.166667px;
+    color: var(--black);
+    margin-top: 85px;
+}
+
+header h2{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.166667px;
+    color: var(--black);
+}
+
+header p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    color: var(--black);
+    opacity: 0.5;
+    margin-top: 13px;
+}
+
+/* MOBILE SECTION  */
+
+
+
+.card-items{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8.53%;
+    margin-right: 8.53%;
+    background: var(--white);
+    height: 222px;
+    border-radius: 8px;
+    margin-bottom: 23px;
+    margin-top: 76px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.card-items h3{    
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--black);
+    margin-left: 7.46%;
+    margin-top: 27px;    
+}
+
+.card-items p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.0902778px;
+    color: var(--black);
+    opacity: 0.5;
+    margin-left: 7.46%;
+    margin-right: 7.46%;
+}
+
+.card-items img{
+    width: 57px;
+    height: 57px;
+    margin-top: 33px;
+    margin-left: 70%;
+}
+
